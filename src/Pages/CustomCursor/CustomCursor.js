@@ -5,15 +5,14 @@ const CustomCursor = () => {
   return (
     <div>
       <AnimatedCursor
-        // innerSize={8}
+        innerSize={8}
         outerSize={10}
         color="230, 129, 21"
         outerAlpha={0.2}
         innerScale={1}
         outerScale={9}
-        hasBlendMode={true}
         outerStyle={{
-          border: "3px solid var(--cursor-color)",
+          border: "3px solid #eb8705",
         }}
         clickables={[
           "a",
