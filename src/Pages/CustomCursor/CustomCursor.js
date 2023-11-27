@@ -26,6 +26,8 @@ const CustomCursor = () => {
           "textarea",
           "button",
           ".link",
+          "span",
+          "i",
         ]}
       />
     </div>
